@@ -1,0 +1,64 @@
+import React, {useEffect} from 'react'
+import ContactForm from "./ContactForm";
+
+import { Link } from "react-router-dom";
+
+function Contact() {
+
+  useEffect(()=>{
+    window.scrollTo({top:0, behavior:'smooth'})
+  },[])
+
+    const location = {
+        address: '1600 Amphitheatre Parkway, Mountain View, california.',
+        lat: 37.42216,
+        lng: -122.08427,
+      }
+    
+    return (
+      <div className="contact_us">
+      <div className="contact_us_inner">
+        <div className="address">
+        <div className="logo">
+            <Link to="/"><img src="\image\spacelogo.png" alt="" /></Link>
+            </div>
+            <p>
+            <a
+                  href="mailto:okekesylvaline.com?subject=From Space Innovation Tech Hub websit"
+                  alt="Email Space Innovation Tech Hub"
+                >
+                  cisupplements@gmail.com
+                </a>
+            </p>
+            <p>
+            <a
+                  href="tel:08167424880"
+                  alt="CI supplements"
+                >
+                  08025363537
+                </a>
+            </p>
+            <p>
+            <i className="fab fa-facebook-f"></i>
+          <i className="fab fa-twitter"></i>
+          <i className="fab fa-youtube"></i>
+          <i className="fab fa-instagram"></i>
+            </p>
+        </div>
+        <div className="contact_form">
+          <h2>Business Hours</h2>
+          <div className="">
+          <span>Sunday - Friday </span>
+          <span>0:8am - 0:6pm</span>
+          </div>
+          <div className="form_div">
+            <ContactForm />
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    )
+}
+
+export default Contact

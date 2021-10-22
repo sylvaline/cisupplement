@@ -1,0 +1,276 @@
+.home{
+    
+}
+
+.home_landing{
+    background-image: url(../image/unsplash_4_jhDO54BYg.png);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+   .home_landing_inner{
+       width: 70%;
+       margin: auto;
+
+       .cta_btn{
+        display: flex;
+        justify-content: center;
+
+        button{
+            padding: 1rem 4rem;
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    h1{
+        font-size: 4rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+   }
+
+   @media screen and (max-width:40rem) {
+    display: block;
+    height: 100vh;
+
+    .home_landing_inner{
+        padding-top: 8rem;
+        width: 90% !important;
+
+    }
+
+    h1{
+        padding-top: 6rem;
+        font-size: 2.8rem !important;
+    }
+
+    p{
+        font-size: 1.3rem !important;
+    }
+}
+
+}
+
+.home_product, .home_review{
+    margin: 5rem 0;
+    width: 100%;
+
+}
+
+.home_product_inner, .home_items{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width:40rem) {
+        display: block;
+        width: 95% !important;
+        margin: auto;
+        padding: 2rem;
+
+        .product_image{
+            img{
+                width: 100% !important;
+            }
+        }
+    }
+}
+    .product_info{
+        margin-left: 2rem;
+        .product_name{
+            border-left: .3rem solid $nav_bg;
+            padding: .5rem;
+            font-size: 1.5rem;
+            @media screen and (max-width:40rem) {
+                font-size: 1.4rem !important;
+                line-height: 2rem;
+            }
+        }
+
+       .superlife{
+            margin: 1rem 0;
+            span{
+                color: $nav_bg;
+            }
+        }
+
+        ul{
+            margin-left: 1rem;
+            margin-top: 1rem;
+
+            li{
+                margin-bottom: .5rem;
+            }
+        }
+
+        @media screen and (max-width:40rem) {
+            margin-left: 0 !important;
+            .product_name, .superlife, ul{
+                font-size: 1.5rem;
+            }
+            
+            ul{
+                margin: 0 !important;
+            }
+        }
+
+        .product_button{
+            color: $nav_bg;
+            margin-top: 2rem;
+            display: flex;
+            cursor: pointer;
+
+            span{
+                padding: .8rem 2em;
+                border: .2rem solid gainsboro;
+            }
+
+            .share_icon{
+                background-color: gainsboro;
+              i{
+                font-size: 1.5rem;
+              }
+            }
+
+            .right{
+                margin: .5rem ;
+            }
+
+            .left{
+                margin-top: -1rem;
+                .what_span{
+                       background-color: white;
+                   
+                }
+            }
+
+            @media screen and (max-width:40rem) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .right{
+                    margin-top: 3rem !important;
+                }
+            }
+            
+        }
+    }
+
+    .home_items{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        .title{
+            width: 20%;
+            margin: auto;
+
+            h2{
+                text-align: center;
+                border-top: .3rem solid $nav_bg;
+                padding: 1rem;
+                font-size: 1rem;
+            }
+
+            @media screen and (max-width:40rem) {
+             
+                width: 90%;
+                margin: auto;
+
+             }
+        }
+
+        .home_items_inner{
+            margin-top: 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 1rem;
+
+            @media screen and (max-width:40rem) {
+                font-size: 1.2rem !important;
+                grid-gap: 2rem 0 !important;
+             }
+
+            .color{
+                background-color: $nav_bg;
+                padding: .5rem;
+                color: white;
+
+                &:hover{
+                    background-color: white;
+                    padding: .5rem;
+                    
+                }
+            }
+
+            .testimonials{
+                h5{
+                    margin-top: .5rem;
+                    font-weight: bolder;
+                    color: $nav_bg;
+                }
+                .testimonial_top{
+                    margin-bottom: .5rem;
+                    
+                    .stars{
+                        i{
+                            color: rgb(255, 218, 7);
+                            font-size: .8rem;
+                            padding: .2rem;
+                        }
+
+                        span{
+                            margin-left: 1rem;
+                            color: gainsboro;
+                        }
+                    }
+                }
+            }
+
+            .benefit{
+                h2{
+                    font-size: 1.2rem;
+                    margin-bottom: 1rem;
+                }
+
+                transition: .5s all linear;
+
+                &:hover{
+                    background-color: $nav_bg;
+                    padding: .5rem;
+                    color: white;
+                }
+            }
+
+            .home_items_image{
+                img{
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+
+    
+
+
