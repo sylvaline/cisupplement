@@ -1,5 +1,21 @@
 .home{
-    
+    .mobile_view{
+        display: none;
+    }
+
+    .window_view{
+        display: block;
+    }
+
+    @media screen and (max-width:40rem) {
+        .mobile_view{
+            display: block;
+        }
+
+        .window_view{
+            display: none;
+        }
+    }
 }
 
 .home_landing{
@@ -76,25 +92,40 @@
     width: 80%;
     margin: auto;
     background-color: white;
+    margin-bottom: 2rem;
     padding: 4rem;
     display: flex;
     justify-content: space-between;
+
+    .product_desc{
+        margin: 1rem 0;
+
+        p{
+            font-size: 1.2rem;
+        }
+    }
 
     @media screen and (max-width:40rem) {
         display: block;
         width: 95% !important;
         margin: auto;
         padding: 2rem;
+        margin-bottom: 2rem !important;
 
         .product_image{
+            
             img{
                 width: 100% !important;
             }
         }
     }
 }
+
+   
+
     .product_info{
         margin-left: 2rem;
+        flex: 1;
         .product_name{
             border-left: .3rem solid $nav_bg;
             padding: .5rem;
@@ -140,18 +171,24 @@
 
             span{
                 padding: .8rem 2em;
-                border: .2rem solid gainsboro;
+                border: .2rem solid $nav_bg;
             }
 
             .share_icon{
-                background-color: gainsboro;
+                background-color: $nav_bg;
               i{
                 font-size: 1.5rem;
+                color: white;
               }
             }
 
             .right{
                 margin: .5rem ;
+                margin-top: -1.5rem !important;
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
             }
 
             .left{
