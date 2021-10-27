@@ -9,11 +9,6 @@ function Contact() {
     window.scrollTo({top:0, behavior:'smooth'})
   },[])
 
-    const location = {
-        address: '1600 Amphitheatre Parkway, Mountain View, california.',
-        lat: 37.42216,
-        lng: -122.08427,
-      }
     
     return (
       <div className="contact_us">
@@ -24,8 +19,8 @@ function Contact() {
             </div>
             <p>
             <a
-                  href="mailto:okekesylvaline.com?subject=From Space Innovation Tech Hub websit"
-                  alt="Email Space Innovation Tech Hub"
+                  href="mailto:okekesylvaline.com?subject=From CI Supplements"
+                  alt="EmailCI Supplements"
                 >
                   cisupplements@gmail.com
                 </a>

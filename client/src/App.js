@@ -4,13 +4,13 @@ import Shop from './components/Shop'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Home from './components/Home'
-import Nav from './components/Nav'
+// import Nav from './components/Nav'
 import Favorite from './components/Favorite'
 
 function App() {
   return (
     <div>
-      <Nav />
+     
       <Switch>
         <Route path="/" exact component={Home}/>
         <Route path="/contacts" component={Contact}/>

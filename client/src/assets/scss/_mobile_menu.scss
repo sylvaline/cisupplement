@@ -132,6 +132,7 @@ span {
     background-color: $nav_bg;
     display: none;
     list-style: none;
+    margin-top: -1rem;
     top: 0;
     right: 0;
     left: 0;
@@ -142,6 +143,7 @@ span {
     z-index: 100;
     overflow: scroll;
     text-align: center;
+    color: white;
     
 
     &.open{
