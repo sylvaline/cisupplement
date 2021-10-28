@@ -117,6 +117,20 @@
         }
     }
 
+    .product_image{
+        flex: 1;
+        .root_img{
+           
+                width: 80%;
+            
+        }
+        @media screen and (max-width:40rem){
+            .root_img{
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
     @media screen and (max-width:40rem) {
         display: block;
         width: 95% !important;
@@ -137,7 +151,7 @@
 
     .product_info{
         margin-left: 2rem;
-        flex: 1;
+        flex: 2;
         .product_name{
             border-left: .3rem solid $nav_bg;
             padding: .5rem;

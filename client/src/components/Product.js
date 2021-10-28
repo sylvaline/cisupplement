@@ -30,7 +30,7 @@ function Product() {
             
             <div className="product_button">
               <div className="left">
-                <WhatsappShareButton url={"ci-supplements"}>
+                <WhatsappShareButton url={"https://www.cisupplements.com/"}>
                   <span className="share_icon">
                     <i className="fab fa-whatsapp"></i>
                   </span>
@@ -81,7 +81,7 @@ function Product() {
             
             <div className="product_button">
               <div className="left">
-                <WhatsappShareButton url={"ci-supplements"}>
+                <WhatsappShareButton url={"https://www.cisupplements.com/"}>
                   <span className="share_icon">
                     <i className="fab fa-whatsapp"></i>
                   </span>
@@ -127,7 +127,7 @@ function Product() {
             
             <div className="product_button">
               <div className="left">
-                <WhatsappShareButton url={"ci-supplements"}>
+                <WhatsappShareButton url={"https://www.cisupplements.com/"}>
                   <span className="share_icon">
                     <i className="fab fa-whatsapp"></i>
                   </span>
@@ -178,7 +178,7 @@ function Product() {
             
             <div className="product_button">
               <div className="left">
-                <WhatsappShareButton url={"ci-supplements"}>
+                <WhatsappShareButton url={"https://www.cisupplements.com/"}>
                   <span className="share_icon">
                     <i className="fab fa-whatsapp"></i>
                   </span>
@@ -202,6 +202,56 @@ function Product() {
           </div>
         </div>
         </Fade>
+
+        <Fade bottom>
+        <div className="home_product_inner">
+          
+          <div className="product_info">
+            <div className="product_name">
+              <h4>Root Double Root Coffee </h4>
+            </div>
+            <div className="product_desc">
+              <p>Double Root Coffee is used to treat and cure erectile dysfunction (ED), or infertility in men and women, increase libido and stamina.</p>
+            </div>
+
+            <div className="product_price">
+              <p>Price: <span>#5,999</span></p>
+            </div>
+
+            <p className="superlife">
+              A <span>SuperLife </span> Product
+            </p>
+            
+            
+            <div className="product_button">
+              <div className="left">
+                <WhatsappShareButton url={"https://www.cisupplements.com/"}>
+                  <span className="share_icon">
+                    <i className="fab fa-whatsapp"></i>
+                  </span>
+                  <span className="what_span">Share</span>
+                </WhatsappShareButton>
+              </div>
+
+              <div className="right">
+              <button>
+              <a
+                href="https://wa.me/2347035108999/?text=Hello, I want to buy Root Double Root Coffee"
+                class="whatsapp_float"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Buy now
+              </a>
+            </button>
+              </div>
+            </div>
+          </div>
+          <div className="product_image">
+          <img className="root_img" src="\images\r.jpg" alt="" />
+          </div>
+        </div>
+          </Fade>
         </div>
       
         <div className="mobile_view">
@@ -229,7 +279,7 @@ function Product() {
             
             <div className="product_button">
               <div className="left">
-                <WhatsappShareButton url={"ci-supplements"}>
+                <WhatsappShareButton url={"https://www.cisupplements.com/"}>
                   <span className="share_icon">
                     <i className="fab fa-whatsapp"></i>
                   </span>
@@ -278,7 +328,7 @@ function Product() {
 
             <div className="product_button">
               <div className="left">
-                <WhatsappShareButton url={"ci-supplements"}>
+                <WhatsappShareButton url={"https://www.cisupplements.com/"}>
                   <span className="share_icon">
                     <i className="fab fa-whatsapp"></i>
                   </span>
@@ -326,7 +376,7 @@ function Product() {
             
             <div className="product_button">
               <div className="left">
-                <WhatsappShareButton url={"ci-supplements"}>
+                <WhatsappShareButton url={"https://www.cisupplements.com/"}>
                   <span className="share_icon">
                     <i className="fab fa-whatsapp"></i>
                   </span>
@@ -375,7 +425,7 @@ function Product() {
             
             <div className="product_button">
               <div className="left">
-                <WhatsappShareButton url={"ci-supplements"}>
+                <WhatsappShareButton url={"https://www.cisupplements.com/"}>
                   <span className="share_icon">
                     <i className="fab fa-whatsapp"></i>
                   </span>
@@ -399,6 +449,55 @@ function Product() {
           </div>
         </div>
         </Fade>
+        <Fade bottom>
+        <div className="home_product_inner">
+        <div className="product_image">
+          <img className="root_img" src="\images\r.jpg" alt="" />
+          </div>
+          <div className="product_info">
+            <div className="product_name">
+              <h4>Root Double Root Coffee </h4>
+            </div>
+            <div className="product_desc">
+              <p>Double Root Coffee is used to treat and cure erectile dysfunction (ED), or infertility in men and women, increase libido and stamina.</p>
+            </div>
+
+            <div className="product_price">
+              <p>Price: <span>#5,999</span></p>
+            </div>
+
+            <p className="superlife">
+              A <span>SuperLife </span> Product
+            </p>
+            
+            
+            <div className="product_button">
+              <div className="left">
+                <WhatsappShareButton url={"https://www.cisupplements.com/"}>
+                  <span className="share_icon">
+                    <i className="fab fa-whatsapp"></i>
+                  </span>
+                  <span className="what_span">Share</span>
+                </WhatsappShareButton>
+              </div>
+
+              <div className="right">
+              <button>
+              <a
+                href="https://wa.me/2347035108999/?text=Hello, I want to buy Root Double Root Coffee"
+                class="whatsapp_float"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Buy now
+              </a>
+            </button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+          </Fade>
         </div>
         
         </div>
