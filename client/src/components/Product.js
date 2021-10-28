@@ -41,7 +41,7 @@ function Product() {
               <div className="right">
               <button>
               <a
-                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE TOTAL CARE 30, for the price of #23,000"
+                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE TOTAL CARE 30"
                 class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -92,7 +92,7 @@ function Product() {
               <div className="right">
               <button>
               <a
-                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE COLON CARE +, for the price of #28,500"
+                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE COLON CARE +"
                 class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -138,7 +138,7 @@ function Product() {
               <div className="right">
               <button>
               <a
-                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE IMMUNE CARE, for the price of #26,000"
+                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE IMMUNE CARE"
                 class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -189,7 +189,7 @@ function Product() {
               <div className="right">
               <button>
               <a
-                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE NEURON CARE, for the price of #26,000"
+                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE NEURON CARE"
                 class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -239,7 +239,7 @@ function Product() {
               <div className="right">
               <button>
               <a
-                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE TOTAL CARE 30, for the price of #23,000"
+                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE TOTAL CARE 30"
                 class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -288,7 +288,7 @@ function Product() {
               <div className="right">
               <button>
               <a
-                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE COLON CARE +, for the price of #28,500"
+                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE COLON CARE +"
                 class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -336,7 +336,7 @@ function Product() {
               <div className="right">
               <button>
               <a
-                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE IMMUNE CARE, for the price of #26,000"
+                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE IMMUNE CARE"
                 class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -385,7 +385,7 @@ function Product() {
               <div className="right">
               <button>
               <a
-                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE NEURON CARE, for the price of #26,000"
+                href="https://wa.me/2347035108999/?text=Hello, I want to buy SUPERLIFE NEURON CARE"
                 class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"

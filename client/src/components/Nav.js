@@ -12,7 +12,7 @@ function Nav({ gallery, testimonial, benefits, contact, about}) {
           <div className="logo">
             <h2>
               <Link to="/">
-                <img src="\images\images-1.png" alt="" />
+                CIS
               </Link>
             </h2>
           </div>
