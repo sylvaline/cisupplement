@@ -19,7 +19,7 @@ function Contact() {
             </div>
             <p>
             <a
-                  href="mailto:okekesylvaline.com?subject=From CI Supplements"
+                  href="mailto:cisupplements@gmail.com?subject=From CI Supplements"
                   alt="EmailCI Supplements"
                 >
                   cisupplements@gmail.com
@@ -27,10 +27,10 @@ function Contact() {
             </p>
             <p>
             <a
-                  href="tel:08167424880"
+                  href="tel:07035108999"
                   alt="CI supplements"
                 >
-                  08025363537
+                  +2347035108999
                 </a>
             </p>
             <p>
