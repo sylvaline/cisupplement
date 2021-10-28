@@ -11,15 +11,17 @@ function Nav({ gallery, testimonial, benefits, contact, about}) {
         <div className="nav_inner">
           <div className="logo">
             <h2>
-              <Link to="/">CIS</Link>
+              <Link to="/">
+                <img src="\images\images-1.png" alt="" />
+              </Link>
             </h2>
           </div>
           <ul className="nav_host">
             <li onClick={() => gallery()}>Gallery</li>
             {/* <li onClick={() => about()}>About us</li> */}
             <li>About us</li>
-            <li onClick={() => benefits()}>Benefits of SupperLife</li>
-            <li onClick={() => testimonial()}>Testimonial</li>
+            <li onClick={() => benefits()}>Benefits of SuperLife</li>
+            <li onClick={() => testimonial()}>Testimonials</li>
             <li onClick={() => contact()}>Contact us</li>
           </ul>
         </div>

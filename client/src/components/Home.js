@@ -58,7 +58,7 @@ function Home() {
           <div className="cta_btn">
             <button>
               <a
-                href="https://wa.me/2347053187744"
+                href="https://wa.me/2347035108999/?text=Hello, I want to buy Superlife supplement"
                 class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -73,7 +73,7 @@ function Home() {
       </div>
       <div className="home_product">
 
-        
+   
         <Product />
         
         <div ref={testimonial} className="d">
