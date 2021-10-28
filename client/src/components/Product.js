@@ -219,13 +219,14 @@ function Product() {
             <div className="product_desc">
               <p>Superlife stc30 is an organic superfood based on high quality and graded apple and Grape Stem Cells (PhytoCellTec), combining with GliSODiN.</p>
             </div>
+            <div className="product_price">
+              <p>Price: <span>#23,000</span></p>
+            </div>
             <p className="superlife">
               A <span>SuperLife </span> Product
             </p>
             
-            <div className="product_price">
-              <p>Price: <span>#23,000</span></p>
-            </div>
+            
             <div className="product_button">
               <div className="left">
                 <WhatsappShareButton url={"ci-supplements"}>
