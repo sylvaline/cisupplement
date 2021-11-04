@@ -1,5 +1,6 @@
 .nav{
-    background-color: $nav_bg;
+    // background-color: $nav_bg;
+    background-image: linear-gradient(#65c565, $nav_bg );
     width: 100%;
     height: 10vh; 
     position: fixed;
@@ -10,7 +11,7 @@
         text-decoration: none;
     }
 
-    @media screen and (max-width:40rem) {
+    @media screen and (max-width:50rem) {
 
        display: none;
     }
@@ -33,8 +34,13 @@
 }
 
 .logo{
+
     color: white;
 
+    img{
+        width: 5rem;
+        object-fit: cover;
+    }
 }
 
 .nav_host{

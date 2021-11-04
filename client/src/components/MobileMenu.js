@@ -23,8 +23,8 @@ function MobileMenu({ gallery, testimonial, benefits, contact, about }) {
       <div className="nav_header">
         <div className="logo">
           <Link to="/">
-            {/* <img src="\image\spacelogo.png" alt="" /> */}
-            CIS
+            
+            <img src="\images\logo.jpg" alt="" />
           </Link>
         </div>
         <div

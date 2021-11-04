@@ -7,7 +7,7 @@
         display: block;
     }
 
-    @media screen and (max-width:40rem) {
+    @media screen and (max-width:60rem) {
         .mobile_view{
             display: block;
         }
@@ -60,7 +60,7 @@
 
    }
 
-   @media screen and (max-width:40rem) {
+   @media screen and (max-width:60rem) {
     display: block;
     height: 100vh;
 
@@ -93,7 +93,7 @@
         margin-bottom: 1rem;
         font-weight: 700;
 
-        @media screen and (max-width:40rem) {
+        @media screen and (max-width:60rem) {
             font-size: 1rem;
         }
     }
@@ -124,14 +124,14 @@
                 width: 80%;
             
         }
-        @media screen and (max-width:40rem){
+        @media screen and (max-width:60rem){
             .root_img{
                 margin-bottom: 1rem;
             }
         }
     }
 
-    @media screen and (max-width:40rem) {
+    @media screen and (max-width:60rem) {
         display: block;
         width: 95% !important;
         margin: auto;
@@ -156,7 +156,7 @@
             border-left: .3rem solid $nav_bg;
             padding: .5rem;
             font-size: 1.5rem;
-            @media screen and (max-width:40rem) {
+            @media screen and (max-width:60rem) {
                 font-size: 1.4rem !important;
                 line-height: 2rem;
             }
@@ -189,7 +189,7 @@
             }
         }
 
-        @media screen and (max-width:40rem) {
+        @media screen and (max-width:60rem) {
             margin-left: 0 !important;
             .product_name, .superlife, ul{
                 font-size: 1.5rem;
@@ -236,7 +236,7 @@
                 }
             }
 
-            @media screen and (max-width:40rem) {
+            @media screen and (max-width:60rem) {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
@@ -268,7 +268,7 @@
                 font-size: 1rem;
             }
 
-            @media screen and (max-width:40rem) {
+            @media screen and (max-width:60rem) {
              
                 width: 95% !important;
                 margin: auto;
@@ -282,7 +282,7 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             grid-gap: 1rem;
 
-            @media screen and (max-width:40rem) {
+            @media screen and (max-width:60rem) {
                 font-size: 1.2rem !important;
                 grid-gap: 2rem 0 !important;
              }
